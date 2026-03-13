@@ -32,6 +32,8 @@ customer_order：客户与订单表连接，用于用户维度分析。
 order_merge：订单明细宽表（订单 + 商品 + 支付 + 评价），用于订单维度分析。
 product_seller_merge：商品与商家宽表，用于产品维度分析。
 
+保存宽表至：product_seller_merge/order_merge/customer_order_merge
+
 用户维度特征：
 订单数、是否复购、总消费额、平均客单价、首次/末次购买时间。
 
