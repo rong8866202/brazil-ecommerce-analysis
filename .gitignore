@@ -1,4 +1,5 @@
-*.csv
+!features/**/*.csv
+!merges/**/*.csv*.csv
 !产品维度特征表/*.csv
 !订单维度特征表/order_features.csv
 !用户维度特征表/user_features.csv
@@ -6,3 +7,5 @@
 !cleaned_products.csv
 .DS_Store
 .ipynb_checkpoints/
+!features/**/*.csv
+!merges/**/*.csv
