@@ -80,9 +80,8 @@ product_seller_merge：商品与商家宽表，用于产品维度分析。
 
 销售额最高的品类为 beleza_saude（美容健康）、relogios_presentes（手表礼品）等，圣保罗是绝大多数品类的消费中心。
 
-📁 文件结构
-
-text
+## 📁 文件结构
+```text
 brazil_ecommerce_project/
 ├── brazil_ecommerce_project/
 │   ├── cleaned_data/          # 清洗后的数据
@@ -92,7 +91,7 @@ brazil_ecommerce_project/
 │   │   ├── product_features/
 │   │   ├── order_features/
 │   │   └── user_features/
-│   ├── 00_notebooks/             # 分析代码
+│   ├── 00_notebooks/          # 分析代码
 │   │   ├── ecommerce_analysis_01_data_cleaning.ipynb
 │   │   ├── ecommerce_analysis_02_feature_engineering.ipynb
 │   │   └── ecommerce_analysis_03_visualization.ipynb
@@ -102,7 +101,7 @@ brazil_ecommerce_project/
 │   │   └── customer_order_merge.csv
 │   ├── README.md
 │   └── requirements.txt       # Python依赖
-└── 🔧 运行环境
+└── 运行环境
 
 
 Python 3.8+
