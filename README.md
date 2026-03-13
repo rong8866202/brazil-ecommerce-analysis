@@ -10,7 +10,7 @@
 
 🛠️ 分析流程
 
-1. 数据清洗（notebooks/ecommerce_analysis_01_data_cleaning.ipynb）
+1. 数据清洗（00_notebooks/ecommerce_analysis_01_data_cleaning.ipynb）
 
 加载原始表（customers、orders、order_items、order_payments、order_reviews、products、sellers、geolocation、product_category_name_translation）。
 探查各表基本信息、缺失值、异常值。
@@ -24,7 +24,7 @@ reviews 表：保留文本缺失，不处理。
 
 保存清洗后数据至 cleaned_orders/cleaned_products/。
 
-2. 特征工程（notebooks/ecommerce_analysis_02_feature_engineering.ipynb）
+2. 特征工程（00_notebooks/ecommerce_analysis_02_feature_engineering.ipynb）
 
 构建核心宽表：
 
@@ -45,7 +45,7 @@ product_seller_merge：商品与商家宽表，用于产品维度分析。
 
 保存特征表至 product_features/order_features/user_features 。
 
-3. 可视化分析与业务洞察（notebooks/ecommerce_analysis_03_visualization.ipynb）
+3. 可视化分析与业务洞察（00_notebooks/ecommerce_analysis_03_visualization.ipynb）
 
 用户行为：
 用户订单分布（验证多数用户仅一单）。
@@ -92,7 +92,7 @@ brazil_ecommerce_project/
 │   │   ├── product_features/
 │   │   ├── order_features/
 │   │   └── user_features/
-│   ├── notebooks/             # 分析代码
+│   ├── 00_notebooks/             # 分析代码
 │   │   ├── ecommerce_analysis_01_data_cleaning.ipynb
 │   │   ├── ecommerce_analysis_02_feature_engineering.ipynb
 │   │   └── ecommerce_analysis_03_visualization.ipynb
