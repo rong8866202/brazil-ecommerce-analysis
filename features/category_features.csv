@@ -1,0 +1,75 @@
+product_category_name,category_total_sales,category_total_count,category_avg_score,customer_city,category_city_total_price
+agro_industria_e_comercio,72530.47,212,4.0,sao paulo,10463.16
+alimentos,29393.41,510,4.3,sao paulo,6142.41
+alimentos_bebidas,15179.48,278,4.4,sao paulo,2957.15
+artes,24202.64,209,4.0,marilia,6499.0
+artes_e_artesanato,1814.01,24,4.1,brusque,289.49
+artigos_de_festas,4485.18,43,4.0,betim,571.2
+artigos_de_natal,8800.82,153,4.0,ananindeua,701.4
+audio,50688.5,364,3.8,sao paulo,8276.61
+automotivo,592720.11,4235,4.1,sao paulo,58354.08
+bebes,411764.89,3065,4.0,sao paulo,52607.74
+bebidas,22428.7,379,4.2,rio de janeiro,4675.08
+beleza_saude,1258681.34,9670,4.2,sao paulo,189361.87
+brinquedos,483946.6,4117,4.2,sao paulo,69635.89
+cama_mesa_banho,1036988.68,11115,3.9,sao paulo,170705.41
+casa_conforto,58572.04,434,3.9,sao paulo,10573.23
+casa_conforto_2,760.27,30,3.8,sao paulo,310.29
+casa_construcao,83088.12,604,3.9,sao paulo,8423.58
+cds_dvds_musicais,730.0,14,4.7,sao paulo,240.0
+cine_foto,6933.46,72,4.2,sao paulo,1140.52
+climatizacao,55024.96,297,4.0,rio de janeiro,11099.09
+consoles_games,157465.22,1137,4.1,sao paulo,25042.64
+construcao_ferramentas_construcao,144677.59,929,4.1,sao paulo,24713.78
+construcao_ferramentas_ferramentas,15903.95,103,4.4,sao paulo,3105.0
+construcao_ferramentas_iluminacao,41080.0,304,4.1,sao paulo,4587.65
+construcao_ferramentas_jardim,25715.89,238,4.1,sao paulo,2911.77
+construcao_ferramentas_seguranca,40544.52,194,3.9,sao paulo,7122.51
+cool_stuff,635290.85,3796,4.2,sao paulo,67860.87
+dvds_blu_ray,5999.39,64,4.1,sao paulo,2461.58
+eletrodomesticos,80171.53,771,4.2,sao paulo,10648.4
+eletrodomesticos_2,113317.74,238,4.1,rio de janeiro,23049.02
+eletronicos,160246.74,2767,4.1,sao paulo,18672.92
+eletroportateis,190648.58,679,4.2,sao paulo,25557.22
+esporte_lazer,988048.97,8641,4.2,sao paulo,144533.26
+fashion_bolsas_e_acessorios,152823.54,2031,4.1,sao paulo,23263.52
+fashion_calcados,23562.77,262,4.2,sao paulo,1935.79
+fashion_esporte,2119.51,30,4.3,sao paulo,259.6
+fashion_roupa_feminina,2803.64,48,3.7,sao paulo,697.74
+fashion_roupa_infanto_juvenil,569.85,8,4.5,sao paulo,279.97
+fashion_roupa_masculina,10797.82,132,3.6,sao paulo,1456.2
+fashion_underwear_e_moda_praia,9541.55,131,3.9,sao paulo,1268.95
+ferramentas_jardim,485256.46,4347,4.1,sao paulo,44645.94
+flores,1110.04,33,4.4,sao paulo,272.09
+fraldas_higiene,1567.59,39,3.7,sao paulo,390.69
+industria_comercio_e_negocios,39669.61,268,4.2,sao paulo,5704.76
+informatica_acessorios,911954.32,7827,4.0,sao paulo,144635.68
+instrumentos_musicais,191498.88,680,4.2,sao paulo,24176.24
+la_cuisine,2054.99,14,4.2,vargem bonita,389.0
+livros_importados,4639.85,60,4.4,sao paulo,1402.83
+livros_interesse_geral,46856.88,553,4.4,sao paulo,7566.97
+livros_tecnicos,19096.06,267,4.4,sao paulo,3087.39
+malas_acessorios,140429.98,1092,4.3,sao paulo,21197.91
+market_place,28378.47,311,4.0,sao paulo,3904.01
+moveis_colchao_e_estofado,4368.08,38,3.8,rio de janeiro,858.49
+moveis_cozinha_area_de_servico_jantar_e_jardim,46328.37,281,4.1,sao paulo,8484.84
+moveis_decoracao,729762.49,8334,4.0,sao paulo,100033.05
+moveis_escritorio,273960.7,1691,3.6,sao paulo,42637.05
+moveis_quarto,20028.78,109,4.1,sao paulo,6309.18
+moveis_sala,68916.56,503,4.0,rio de janeiro,8985.35
+musica,6034.35,38,4.2,goiatuba,1165.97
+papelaria,230943.23,2517,4.2,sao paulo,32058.35
+pc_gamer,1545.95,9,3.1,sao bernardo do campo,438.0
+pcs,222963.13,203,4.2,sao paulo,20769.58
+perfumaria,399124.87,3419,4.2,sao paulo,62195.09
+pet_shop,214315.41,1947,4.2,sao paulo,28940.06
+portateis_casa_forno_e_cafe,47445.71,76,4.3,sao paulo,9658.67
+portateis_cozinha_e_preparadores_de_alimentos,3968.53,15,3.4,belo horizonte,1099.0
+relogios_presentes,1205005.68,5991,4.0,sao paulo,165897.46
+seguros_e_servicos,283.29,2,2.5,rolim de moura,183.29
+sinalizacao_e_seguranca,21509.23,199,4.1,sao paulo,4490.73
+tablets_impressao_imagem,7528.41,83,4.2,cariacica,889.99
+telefonia,323667.53,4545,4.0,sao paulo,38303.64
+telefonia_fixa,59583.0,264,3.9,rio de janeiro,15775.63
+unknown,179535.28,1603,3.9,sao paulo,28774.74
+utilidades_domesticas,632248.66,6964,4.1,sao paulo,104820.45
