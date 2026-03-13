@@ -10,7 +10,7 @@
 
 🛠️ 分析流程
 
-1. 数据清洗（电商用户行为分析（第一部分：数据清洗）.ipynb）
+1. 数据清洗（ecommerce_analysis_01_data_cleaning.ipynb）
 
 加载原始表（customers、orders、order_items、order_payments、order_reviews、products、sellers、geolocation、product_category_name_translation）。
 探查各表基本信息、缺失值、异常值。
@@ -24,7 +24,7 @@ reviews 表：保留文本缺失，不处理。
 
 保存清洗后数据至 cleaned_orders/cleaned_products/。
 
-2. 特征工程（电商用户行为分析（第二部分：特征工程）.ipynb）
+2. 特征工程（ecommerce_analysis_02_feature_engineering.ipynb）
 
 构建核心宽表：
 
@@ -41,9 +41,9 @@ product_seller_merge：商品与商家宽表，用于产品维度分析。
 产品维度特征：
 品类销售额、销量、平均评分、各品类销售额最高的城市。
 
-保存特征表至 产品维度特征表/用户维度特征表/订单维度特征表 。
+保存特征表至 product_features/order_features/user_features 。
 
-3. 可视化分析与业务洞察（电商用户行为分析（第三部分：可视化分析）.ipynb）
+3. 可视化分析与业务洞察（ecommerce_analysis_03_visualization.ipynb）
 
 用户行为：
 用户订单分布（验证多数用户仅一单）。
@@ -82,14 +82,26 @@ product_seller_merge：商品与商家宽表，用于产品维度分析。
 
 text
 brazil_ecommerce_project/
-├── cleaned_orders/cleaned_products/               # 清洗后数据（中间文件）
-├── 产品维度特征表/用户维度特征表/订单维度特征表          # 特征表（用户、订单、产品维度）
-├── 电商用户行为分析（第一部分：数据清洗）.ipynb
-├── 电商用户行为分析（第二部分：特征工程）.ipynb
-├── 电商用户行为分析（第三部分：可视化分析）.ipynb
-├── README.md
-└── requirements.txt             # Python 依赖（pandas, matplotlib, seaborn, numpy等）
-🔧 运行环境
+├── brazil_ecommerce_project/
+│   ├── cleaned_data/          # 清洗后的数据
+│   │   ├── cleaned_orders.csv
+│   │   └── cleaned_products.csv
+│   ├── features/              # 维度特征表
+│   │   ├── product_features/
+│   │   ├── order_features/
+│   │   └── user_features/
+│   ├── notebooks/             # 分析代码
+│   │   ├── ecommerce_analysis_01_data_cleaning.ipynb
+│   │   ├── ecommerce_analysis_02_feature_engineering.ipynb
+│   │   └── ecommerce_analysis_03_visualization.ipynb
+│   ├── merges/                # 合并后的宽表
+│   │   ├── product_seller_merge.csv
+│   │   ├── order_merge.csv
+│   │   └── customer_order_merge.csv
+│   ├── README.md
+│   └── requirements.txt       # Python依赖
+└── 🔧 运行环境
+
 
 Python 3.8+
 依赖库：pandas, numpy, matplotlib, seaborn, jupyter
