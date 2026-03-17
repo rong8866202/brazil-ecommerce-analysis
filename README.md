@@ -41,6 +41,7 @@ brazil_ecommerce_project/
 
 ---
 
+
 ## 核心分析流程
 
 ### 1. **数据清洗（ecommerce_analysis_01_data_cleaning.ipynb）**
@@ -81,6 +82,7 @@ brazil_ecommerce_project/
 
 ---
 
+
 ### 核心结论
 1. 用户粘性弱，需加强复购激励。
 2. 小额消费主导，可通过满减包邮提升客单价。
@@ -96,6 +98,7 @@ brazil_ecommerce_project/
 4. **数据建设**：补全2016年11月缺失数据，搭建核心指标监控看板，实现业务异常实时预警。
 
 ---
+
 
 ## 运行说明
 1. 克隆项目到本地：`git clone https://github.com/[你的用户名]/brazil_ecommerce_project.git`
