@@ -3,44 +3,12 @@
 ## 项目背景
 本项目基于巴西 Olist 公开电商数据集，通过**数据清洗 → 特征工程 → 可视化分析**的完整流程，挖掘用户消费行为、订单表现和产品销售特征，为电商平台运营、品类管理和用户增长提供数据驱动的决策建议。
 
-## 技术栈
-- **数据处理**：Python (pandas, numpy)
-- **可视化分析**：matplotlib, seaborn
-- **开发环境**：Jupyter Notebook
-- **版本控制**：Git / GitHub
-- **文档导出**：Jupyter nbconvert (WebPDF)
-
-## 📁 项目结构
-```text
-brazil_ecommerce_project/
-├── brazil_ecommerce_project/
-│   ├── cleaned_data/          # 清洗后的数据
-│   │   ├── cleaned_orders.csv
-│   │   └── cleaned_products.csv
-│   ├── features/              # 维度特征表
-│   │   ├── product_features/
-│   │   ├── order_features/
-│   │   └── user_features/
-│   ├── 00_notebooks/          # 分析代码
-│   │   ├── ecommerce_analysis_01_data_cleaning.ipynb
-│   │   ├── ecommerce_analysis_02_feature_engineering.ipynb
-│   │   └── ecommerce_analysis_03_visualization.ipynb
-│   ├── merges/                # 合并后的宽表
-│   │   ├── product_seller_merge.csv
-│   │   ├── order_merge.csv
-│   │   └── customer_order_merge.csv
-│   ├── README.md
-│   └── requirements.txt       # Python依赖
-└── 运行环境
-
-
 ## 数据来源
 - 数据集来自 Kaggle 公开的 [Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - 包含 9 张核心表：用户表、订单表、订单明细表、支付表、评价表、商品表、商家表、地理位置表、品类翻译表
 - 数据时间范围：2016年9月 – 2018年10月
 
 ---
-
 
 ## 核心分析流程
 
@@ -99,8 +67,39 @@ brazil_ecommerce_project/
 
 ---
 
-
 ## 运行说明
 1. 克隆项目到本地：`git clone https://github.com/[你的用户名]/brazil_ecommerce_project.git`
 2. 安装依赖：`pip install pandas numpy matplotlib seaborn nbconvert[webpdf]`
 3. 运行 Notebook：在 `00_notebooks/` 目录下执行 `jupyter notebook`
+
+---
+
+## 技术栈
+- **数据处理**：Python (pandas, numpy)
+- **可视化分析**：matplotlib, seaborn
+- **开发环境**：Jupyter Notebook
+- **版本控制**：Git / GitHub
+- **文档导出**：Jupyter nbconvert (WebPDF)
+
+## 📁 项目结构
+```text
+brazil_ecommerce_project/
+├── brazil_ecommerce_project/
+│   ├── cleaned_data/          # 清洗后的数据
+│   │   ├── cleaned_orders.csv
+│   │   └── cleaned_products.csv
+│   ├── features/              # 维度特征表
+│   │   ├── product_features/
+│   │   ├── order_features/
+│   │   └── user_features/
+│   ├── 00_notebooks/          # 分析代码
+│   │   ├── ecommerce_analysis_01_data_cleaning.ipynb
+│   │   ├── ecommerce_analysis_02_feature_engineering.ipynb
+│   │   └── ecommerce_analysis_03_visualization.ipynb
+│   ├── merges/                # 合并后的宽表
+│   │   ├── product_seller_merge.csv
+│   │   ├── order_merge.csv
+│   │   └── customer_order_merge.csv
+│   ├── README.md
+│   └── requirements.txt       # Python依赖
+└── 运行环境
