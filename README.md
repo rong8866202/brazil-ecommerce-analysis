@@ -12,7 +12,7 @@
 
 ## 核心分析流程
 
-### 1. **数据清洗（ecommerce_analysis_01_data_cleaning.ipynb）**
+### 1. **数据清洗（00_notebooks/ecommerce_analysis_01_data_cleaning.ipynb）**
 - **缺失值处理**：
   - orders 表：根据订单状态保留合理缺失，新增 has_approved、has_shipped、has_delivered 布尔特征，标记异常订单。
   - products 表：填充类别缺失为 unknown，用 0 填充描述长度，用同类均值填充重量/尺寸（各 2 条）。
@@ -25,14 +25,14 @@
 
 - **数据合并**：构建‘customer_order_merge.csv‘、’order_merge.csv‘、’product_seller_merge.csv‘，为后续分析奠定基础
 
-### 2. **特征工程（ecommerce_analysis_02_feature_engineering.ipynb）**
+### 2. **特征工程（00_notebooks/ecommerce_analysis_02_feature_engineering.ipynb）**
 - **用户维度特征**：计算每个用户的订单数、总消费金额、平均客单价、首次/末次购买时间等。
 - **订单维度特征**：计算订单总金额（含运费）、商品件数、配送时长、是否延迟送达等。
 - **商品维度特征**：聚合品类销售额、销量、平均评分、各品类销售额最高城市。
 
 - 输出 3 张核心特征表：`user_features.csv`、`order_features.csv`、`category_features.csv`。
 
-### 3. **可视化分析与业务洞察（ecommerce_analysis_03_visualization.ipynb）**
+### 3. **可视化分析与业务洞察（00_notebooks/ecommerce_analysis_03_visualization.ipynb）**
 #### 3.1 用户行为分析
 - 验证用户仅下过1次订单，复购率为0，平台以一次性消费为主。
 - 客单价呈右偏分布：0–200元订单占比超75%，少量高客单价订单来自企业级采购（如工业/商业品类）。
